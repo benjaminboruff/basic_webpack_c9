@@ -1,4 +1,4 @@
-# A basic webpack with hot reload template for Cloud 9 Workspaces
+# A basic webpack template for Cloud 9 Workspaces
 This template provides babel, jQuery, SASS/SCSS for
 a basic HTML web app. Hot reloading is the key to
 this beauty.
