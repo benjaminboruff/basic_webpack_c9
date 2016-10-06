@@ -8,7 +8,7 @@ Create a new workspace.
 In the "Clone from Git or Mercurial URL" input,
 cut and paste the URL of this repo:
 
-> git@github.com:benjaminboruff/basic_webpack_c9.git
+> https://github.com/benjaminboruff/basic_webpack_c9
 
 Then click the green Create Workspace button at the bottom.
 Wait for the workspace to come up comletely (this may take 
