@@ -14,4 +14,4 @@ import $ from 'jquery';
      $('<li></li>').text(dog).appendTo(ul);
  }
 
-console.log('Duder');
+console.log('The Dude abides.');
