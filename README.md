@@ -20,7 +20,8 @@ Cloud 9 IDE, and run:
 > npm install
 
 It will take a while for all the Node modules to download
-and install.
+and install. It may be possible to speed this up using
+Node stable, but who am I to judge :simple_smile:
 
 ## Run the development server with hot reload
 In the bash console run:
@@ -35,8 +36,10 @@ Modify the files in /src and enjoy!
 
 ## Create a "production" build that can be run on a webserver
 
-This removes all of the webpack HRM stuff
-from the bundle.
+The "build" script uses a different webpack config file than
+"dev". This creates a bundle.js file devoid of webpack's HRM
+code that is only needed for development using the dev-server
+in hot reload mode.
 
 In the bash console run:
 
