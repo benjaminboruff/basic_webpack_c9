@@ -1,11 +1,11 @@
 # A basic webpack template for Cloud 9 Workspaces
 This template provides babel (es2015), jQuery, SASS/SCSS for
-a basic HTML web app. Hot reloading is the key to
+a basic web app. Hot reloading is the key to
 this beauty.
 
 ## Installation
 Create a new workspace.
-In the "Clone from Git or Mercorial URL" input,
+In the "Clone from Git or Mercurial URL" input,
 cut and paste the URL of this repo:
 
 > git@github.com:benjaminboruff/basic_webpack_c9.git
@@ -43,9 +43,9 @@ In the bash console run:
 > npm run build
 
 This creates an honest to goodness bundle.js file 
-(uglyfied) in the /build directory. The bundle.js and index.html files
+in /build. The bundle.js and index.html files
 can now be run on the Cloud 9 Apache webserver, or downloaded
-and run from any webserver.
+and served from any webserver.
 
 ## Support & Documentation
 
