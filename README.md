@@ -21,7 +21,7 @@ Cloud 9 IDE, and run:
 
 It will take a while for all the Node modules to download
 and install. It may be possible to speed this up using
-Node stable, but who am I to judge :simple_smile:
+Node stable, but who am I to judge.
 
 ## Run the development server with hot reload
 In the bash console run:
