@@ -1,0 +1,27 @@
+{
+  "name": "webpackhotreload",
+  "version": "1.0.0",
+  "description": "A webpack template with development server running with hot reload.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --host $IP --port $PORT --progress --inline --hot"
+  },
+  "author": "Benjamin H Boruff",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "html-loader": "^0.4.4",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
