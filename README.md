@@ -1,5 +1,5 @@
 # A basic webpack template for Cloud 9 Workspaces
-This template provides babel, jQuery, SASS/SCSS for
+This template provides babel (es2015), jQuery, SASS/SCSS for
 a basic HTML web app. Hot reloading is the key to
 this beauty.
 
@@ -32,6 +32,20 @@ Preview button (between Support and Run) and
 select Preview Running Application
 
 Modify the files in /src and enjoy!
+
+## Create a "production" build that can be run on a webserver
+
+This removes all of the webpack HRM stuff
+from the bundle.
+
+In the bash console run:
+
+> npm run build
+
+This creates an honest to goodness bundle.js file 
+(uglyfied) in the /build directory. The bundle.js and index.html files
+can now be run on the Cloud 9 Apache webserver, or downloaded
+and run from any webserver.
 
 ## Support & Documentation
 

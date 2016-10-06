@@ -3,8 +3,6 @@
  module.exports = {
      
      entry: [
-        'webpack-dev-server/client?https://0.0.0.0:8080',
-        'webpack/hot/dev-server',
          './src/app.js'
     ],
      output: {
@@ -25,7 +23,14 @@
             }
          ]
     },
-    devServer: {
-        contentBase: './build'
-    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false,
+            },
+            output: {
+                comments: false,
+            },
+        })
+    ]
  };

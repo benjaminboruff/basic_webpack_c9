@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --host $IP --port $PORT --progress --inline --hot"
+    "dev": "webpack-dev-server --host $IP --port $PORT --progress --inline --hot",
+    "build": "webpack --config webpack.config.build.js --progress"
   },
   "author": "Benjamin H Boruff",
   "license": "ISC",
