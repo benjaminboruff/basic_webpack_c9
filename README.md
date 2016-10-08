@@ -26,6 +26,7 @@ the bottom of the Cloud 9 IDE, and run:
 #### (*** End Option ***)
 
 ## Install required Node modules
+In the bash console run:
 
 > npm install
 
