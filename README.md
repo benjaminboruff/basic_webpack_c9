@@ -12,10 +12,19 @@ cut and paste the URL of this repo:
 
 Then click the green Create Workspace button at the bottom.
 Wait for the workspace to come up comletely (this may take 
-a while, especially on a free account).
+a while).
 
-Then click into the bash console at the bottom of the
-Cloud 9 IDE, and run:
+I recommend using Node.js Current; it seems faster installing and
+running Node modules, but Cloud 9's installed version works fine.
+
+#### (*** Optional Node.js Current installation ***) 
+To install Node Current, click into the bash console at
+the bottom of the Cloud 9 IDE, and run:
+
+> nvm install node
+#### (*** End Option ***)
+
+## Install required Node modules
 
 > npm install
 
