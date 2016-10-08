@@ -22,6 +22,7 @@ To install Node Current, click into the bash console at
 the bottom of the Cloud 9 IDE, and run:
 
 > nvm install node
+
 #### (*** End Option ***)
 
 ## Install required Node modules
