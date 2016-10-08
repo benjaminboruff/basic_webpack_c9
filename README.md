@@ -47,7 +47,7 @@ Modify the files in /src and enjoy!
 ## Create a "production" build that can be run on a webserver
 
 The "build" script uses a different webpack config file than
-"dev". This creates a bundle.js file devoid of webpack's HRM
+"dev". This creates a bundle.js file devoid of webpack's HMR
 code that is only needed for development using the dev-server
 in hot reload mode.
 
