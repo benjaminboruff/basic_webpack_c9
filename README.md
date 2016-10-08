@@ -20,8 +20,7 @@ Cloud 9 IDE, and run:
 > npm install
 
 It will take a while for all the Node modules to download
-and install. It may be possible to speed this up using
-Node stable, but who am I to judge.
+and install.
 
 ## Run the development server with hot reload
 In the bash console run:
