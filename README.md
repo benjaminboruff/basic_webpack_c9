@@ -5,14 +5,20 @@ this beauty.
 
 ## Installation
 Create a new workspace.
+
+### Option A
 In the "Clone from Git or Mercurial URL" input,
 cut and paste the URL of this repo:
 
 > https://github.com/benjaminboruff/basic_webpack_c9
 
 Then click the green Create Workspace button at the bottom.
-Wait for the workspace to come up comletely (this may take 
+Wait for the workspace to come up completely (this may take 
 a while).
+
+### Option B
+1. Log into Cloud9
+2. [![Open in Cloud9](https://img.shields.io/badge/Open%20in-Cloud9-blue.svg?style=flat-square)](https://c9.io/auth/github?r=https%3A%2F%2Fc9.io%2Fopen%2F%3Fclone_url%3Dhttps%253A%252F%252Fgithub.com%252Fbenjaminboruff%252Fbasic_webpack_c9.git)
 
 I recommend using Node.js Current; it seems faster installing and
 running Node modules, but Cloud 9's installed version works fine.
