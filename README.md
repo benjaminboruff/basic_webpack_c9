@@ -12,7 +12,7 @@ this beauty.
 
 > https://github.com/benjaminboruff/basic_webpack_c9
 
-4. Click the green Create Workspace button at the bottom. Wait for the workspace to come up completely (this may take a while).
+Click the green Create Workspace button at the bottom. Wait for the workspace to come up completely (this may take a while).
 
 ### Option B
 1. Log into Cloud9
